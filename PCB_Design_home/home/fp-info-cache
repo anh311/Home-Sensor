@@ -1,4 +1,4 @@
-25601114901537062
+25602882624184794
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60367,6 +60367,13 @@ QFN50P500X500X80-29N
 0
 29
 29
+Home_Sensor_foot_lib
+TVS_GG0402_KAV
+
+GG0402052R542P 
+0
+2
+2
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
