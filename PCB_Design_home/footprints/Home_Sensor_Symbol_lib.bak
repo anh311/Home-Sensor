@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SW4_1825910-B_TEC"
+		(property "Footprint" "Home_Sensor_foot_lib:SW4_1825910-B_TEC"
 			(at 0 0 0)
 			(effects
 				(font
@@ -52,14 +52,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "1825910-6"
@@ -401,8 +393,8 @@
 				)
 			)
 		)
-		(property "Footprint" "TVS_GG0402_KAV"
-			(at 0 0 0)
+		(property "Footprint" "Home_Sensor_foot_lib:TVS_GG0402_KAV"
+			(at 6.096 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -428,14 +420,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(property "ki_keywords" "GG0402052R542P"
@@ -613,7 +597,9 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
+		)
+		(symbol "GG0402052R542P_1_1"
+			(pin bidirectional line
 				(at 0 0 0)
 				(length 2.54)
 				(name ""
@@ -631,7 +617,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 12.7 0 180)
 				(length 2.54)
 				(name ""

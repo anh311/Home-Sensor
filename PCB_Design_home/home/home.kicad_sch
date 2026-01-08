@@ -1578,7 +1578,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Hone_Sensor_symbol_lib:GG0402052R542P"
+		(symbol "Home_Sensor_Symbol_lib:GG0402052R542P"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1601,8 +1601,8 @@
 					)
 				)
 			)
-			(property "Footprint" "TVS_GG0402_KAV"
-				(at 0 0 0)
+			(property "Footprint" "Home_Sensor_foot_lib:TVS_GG0402_KAV"
+				(at 6.096 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1628,14 +1628,6 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "GG0402052R542P"
@@ -1813,7 +1805,9 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+			)
+			(symbol "GG0402052R542P_1_1"
+				(pin bidirectional line
 					(at 0 0 0)
 					(length 2.54)
 					(name ""
@@ -1831,7 +1825,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 12.7 0 180)
 					(length 2.54)
 					(name ""
@@ -4731,6 +4725,12 @@
 		(uuid "011d32f9-bf91-4394-9c0e-c8883a347db6")
 	)
 	(junction
+		(at 58.42 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02e1952c-baa7-4cad-a245-d13086ff02e7")
+	)
+	(junction
 		(at 38.1 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4869,12 +4869,6 @@
 		(uuid "5eb8ce14-e1c5-4803-9723-9e53ba35285c")
 	)
 	(junction
-		(at 66.04 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5edcd66e-d6b2-4e27-b9be-079c0cd8cbaf")
-	)
-	(junction
 		(at 180.34 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4893,22 +4887,16 @@
 		(uuid "7462dd48-703f-4cb0-b13e-fbcc78b3a136")
 	)
 	(junction
+		(at 66.04 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7675c005-c663-4390-9d68-3588773e79d4")
+	)
+	(junction
 		(at 41.91 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83523593-310a-45e7-85df-753b123c4320")
-	)
-	(junction
-		(at 172.72 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d6dadeb-4665-4ff3-8426-b1f6fe8db54a")
-	)
-	(junction
-		(at 58.42 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9278bebc-c051-4339-8c93-3819f1c5a035")
 	)
 	(junction
 		(at 62.23 252.73)
@@ -4941,7 +4929,7 @@
 		(uuid "b1ed21a8-239c-421d-a764-667605e243ce")
 	)
 	(junction
-		(at 172.72 29.21)
+		(at 172.72 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b42ee726-b761-4f15-a039-82cb8848e15d")
@@ -4983,6 +4971,12 @@
 		(uuid "db5e7a87-e6f9-465f-abad-85be234efc84")
 	)
 	(junction
+		(at 172.72 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1b82ae8-c65d-49e1-8d92-93d17e8e6492")
+	)
+	(junction
 		(at 180.34 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5007,7 +5001,7 @@
 		(uuid "ec4acac0-fa10-43f9-8767-9e009152a071")
 	)
 	(junction
-		(at 162.56 29.21)
+		(at 162.56 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff4ca71d-0a08-4b53-9967-eb25dda73f09")
@@ -5220,7 +5214,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 38.1) (xy 172.72 38.1)
+			(xy 170.18 35.56) (xy 172.72 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5410,7 +5404,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 26.67) (xy 172.72 29.21)
+			(xy 172.72 24.13) (xy 172.72 26.67)
 		)
 		(stroke
 			(width 0)
@@ -5430,7 +5424,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 29.21) (xy 153.67 30.48)
+			(xy 153.67 26.67) (xy 153.67 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5740,6 +5734,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 33.02) (xy 162.56 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "571f4d11-91b4-4c25-b431-9acfec105824")
+	)
+	(wire
+		(pts
 			(xy 58.42 101.6) (xy 66.04 101.6)
 		)
 		(stroke
@@ -5790,7 +5794,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 29.21) (xy 162.56 29.21)
+			(xy 153.67 26.67) (xy 162.56 26.67)
 		)
 		(stroke
 			(width 0)
@@ -5830,7 +5834,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 29.21) (xy 172.72 29.21)
+			(xy 162.56 26.67) (xy 172.72 26.67)
 		)
 		(stroke
 			(width 0)
@@ -6240,7 +6244,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 35.56) (xy 153.67 43.18)
+			(xy 153.67 33.02) (xy 153.67 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6330,6 +6334,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 35.56) (xy 170.18 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0bf6fd6-e9c1-480d-a5f3-787c188b935f")
+	)
+	(wire
+		(pts
 			(xy 57.15 52.07) (xy 69.85 52.07)
 		)
 		(stroke
@@ -6337,6 +6351,16 @@
 			(type default)
 		)
 		(uuid "b308a13e-64b0-4a0b-89ef-07e5c780190c")
+	)
+	(wire
+		(pts
+			(xy 172.72 35.56) (xy 172.72 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4383b42-d1a4-47e2-953e-c1a9399b9764")
 	)
 	(wire
 		(pts
@@ -6610,7 +6634,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 38.1) (xy 172.72 29.21)
+			(xy 172.72 35.56) (xy 172.72 26.67)
 		)
 		(stroke
 			(width 0)
@@ -7276,7 +7300,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 297.18 40.64 0)
 			(effects
 				(font
@@ -7346,7 +7370,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 292.862 91.44 90)
 			(effects
 				(font
@@ -7677,7 +7701,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 83.82 245.11 0)
 			(effects
 				(font
@@ -7754,7 +7778,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Home_Sensor_foot_lib:SW4_1825910-B_TEC"
 			(at 36.83 181.61 0)
 			(effects
 				(font
@@ -8286,7 +8310,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 294.64 83.82 0)
 			(effects
 				(font
@@ -8365,7 +8389,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 148.59 144.78 0)
 			(effects
 				(font
@@ -8408,6 +8432,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Home_Sensor_Symbol_lib:GG0402052R542P")
+		(at 66.04 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38885441-1388-4da2-9ac0-968c24dc086f")
+		(property "Reference" "CR2"
+			(at 69.85 93.9799 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GG0402052R542P"
+			(at 69.85 96.5199 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Home_Sensor_foot_lib:TVS_GG0402_KAV"
+			(at 58.42 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "GG0402052R542P"
+			(at 66.04 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4507dd9-9d2b-408b-b3d0-82966007d1db")
+		)
+		(pin "2"
+			(uuid "00c39ce3-b83b-453f-80ea-773180ad8648")
+		)
+		(instances
+			(project "home"
+				(path "/26a01c63-766c-497b-bc84-a6b4a3f0f5a3"
+					(reference "CR2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 36.83 199.39 90)
 		(unit 1)
@@ -8433,7 +8529,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 36.83 199.39 0)
 			(effects
 				(font
@@ -8477,7 +8573,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 153.67 33.02 180)
+		(at 153.67 30.48 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8486,7 +8582,7 @@
 		(fields_autoplaced yes)
 		(uuid "4cc4ab79-4682-46be-9ac1-854a0209d16d")
 		(property "Reference" "R1"
-			(at 156.21 31.7499 0)
+			(at 156.21 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8495,7 +8591,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 156.21 34.2899 0)
+			(at 156.21 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8503,8 +8599,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 153.67 33.02 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 153.67 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8513,7 +8609,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 33.02 0)
+			(at 153.67 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8522,7 +8618,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 153.67 33.02 0)
+			(at 153.67 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8616,6 +8712,78 @@
 			(project "home"
 				(path "/26a01c63-766c-497b-bc84-a6b4a3f0f5a3"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Home_Sensor_Symbol_lib:GG0402052R542P")
+		(at 58.42 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fd84acb-394a-4d7d-8f13-373c457637a2")
+		(property "Reference" "CR1"
+			(at 62.23 83.8199 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GG0402052R542P"
+			(at 62.23 86.3599 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Home_Sensor_foot_lib:TVS_GG0402_KAV"
+			(at 50.8 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "GG0402052R542P"
+			(at 58.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ea1fa8f-f664-48e8-bc9e-463f98079acc")
+		)
+		(pin "2"
+			(uuid "deda2521-7b22-4730-955c-aace13218965")
+		)
+		(instances
+			(project ""
+				(path "/26a01c63-766c-497b-bc84-a6b4a3f0f5a3"
+					(reference "CR1")
 					(unit 1)
 				)
 			)
@@ -8913,7 +9081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 139.7 144.78 0)
 			(effects
 				(font
@@ -8981,7 +9149,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 68.58 199.39 0)
 			(effects
 				(font
@@ -9249,7 +9417,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 267.462 91.44 90)
 			(effects
 				(font
@@ -9286,6 +9454,78 @@
 			(project ""
 				(path "/26a01c63-766c-497b-bc84-a6b4a3f0f5a3"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Home_Sensor_Symbol_lib:GG0402052R542P")
+		(at 74.93 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ec1d69c-8101-4e72-9083-65eb3439f578")
+		(property "Reference" "CR3"
+			(at 78.74 104.1399 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GG0402052R542P"
+			(at 78.74 106.6799 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Home_Sensor_foot_lib:TVS_GG0402_KAV"
+			(at 67.31 105.664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "GG0402052R542P"
+			(at 74.93 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95d20f88-3322-41a6-b23c-f49e0468bede")
+		)
+		(pin "2"
+			(uuid "d2d7bafa-2d6f-4d6d-9b60-e2ec15fc1192")
+		)
+		(instances
+			(project "home"
+				(path "/26a01c63-766c-497b-bc84-a6b4a3f0f5a3"
+					(reference "CR3")
 					(unit 1)
 				)
 			)
@@ -9470,7 +9710,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 129.54 144.78 0)
 			(effects
 				(font
@@ -9611,7 +9851,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 187.198 165.1 90)
 			(effects
 				(font
@@ -9721,144 +9961,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7da16c1d-ee28-4beb-a5fb-7fa22acb7df8")
-		(property "Reference" "#PWR03"
-			(at 162.56 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 162.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c4bea56d-7866-427a-8592-ec03446b725c")
-		)
-		(instances
-			(project "home"
-				(path "/26a01c63-766c-497b-bc84-a6b4a3f0f5a3"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Hone_Sensor_symbol_lib:GG0402052R542P")
-		(at 74.93 111.76 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7eadaab9-10b2-406e-81db-f4cc5c0db477")
-		(property "Reference" "CR3"
-			(at 78.74 104.1399 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "GG0402052R542P"
-			(at 78.74 106.6799 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Home_Sensor_foot_lib:TVS_GG0402_KAV"
-			(at 74.93 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "GG0402052R542P"
-			(at 74.93 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 74.93 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f0ed02bf-5ca5-417b-94f3-addcc5d66753")
-		)
-		(pin "1"
-			(uuid "44216595-5416-483e-8222-004e93750323")
-		)
-		(instances
-			(project ""
-				(path "/26a01c63-766c-497b-bc84-a6b4a3f0f5a3"
-					(reference "CR3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 345.44 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9951,7 +10053,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 178.562 153.67 90)
 			(effects
 				(font
@@ -10021,7 +10123,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 140.97 50.8 0)
 			(effects
 				(font
@@ -10091,7 +10193,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 281.94 83.82 0)
 			(effects
 				(font
@@ -10366,7 +10468,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 355.6 162.56 0)
 			(effects
 				(font
@@ -10436,7 +10538,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 130.81 50.8 0)
 			(effects
 				(font
@@ -10572,7 +10674,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 274.32 46.99 0)
 			(effects
 				(font
@@ -10728,7 +10830,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
 			(at 309.88 163.83 0)
 			(effects
 				(font
@@ -10807,7 +10909,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 195.58 71.12 0)
 			(effects
 				(font
@@ -10875,7 +10977,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 125.73 48.26 0)
 			(effects
 				(font
@@ -10945,7 +11047,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 72.39 247.65 0)
 			(effects
 				(font
@@ -11126,7 +11228,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 297.18 46.99 0)
 			(effects
 				(font
@@ -11194,7 +11296,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Home_Sensor_foot_lib:SW4_1825910-B_TEC"
 			(at 68.58 181.61 0)
 			(effects
 				(font
@@ -11330,7 +11432,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 279.4 140.97 0)
 			(effects
 				(font
@@ -11400,7 +11502,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 52.07 247.65 0)
 			(effects
 				(font
@@ -11469,7 +11571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 289.56 140.97 0)
 			(effects
 				(font
@@ -11537,7 +11639,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Home_Sensor_foot_lib:SW4_1825910-B_TEC"
 			(at 355.6 144.78 0)
 			(effects
 				(font
@@ -11671,7 +11773,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 72.39 52.07 0)
 			(effects
 				(font
@@ -11715,7 +11817,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 162.56 31.75 0)
+		(at 162.56 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11724,7 +11826,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad15faf5-f6ba-45c7-9f1b-d1e0e25eee9b")
 		(property "Reference" "C1"
-			(at 165.1 30.4862 0)
+			(at 165.1 27.9462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11733,7 +11835,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 165.1 33.0262 0)
+			(at 165.1 30.4862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11741,8 +11843,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 162.56 31.75 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 162.56 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11751,7 +11853,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 31.75 0)
+			(at 162.56 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11760,7 +11862,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 162.56 31.75 0)
+			(at 162.56 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11990,7 +12092,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 287.02 46.99 0)
 			(effects
 				(font
@@ -12060,7 +12162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 24.892 250.19 90)
 			(effects
 				(font
@@ -12128,7 +12230,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 40.64 156.21 0)
 			(effects
 				(font
@@ -12198,7 +12300,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 26.67 241.3 0)
 			(effects
 				(font
@@ -12274,7 +12376,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 91.44 248.92 0)
 			(effects
 				(font
@@ -12318,7 +12420,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 172.72 26.67 0)
+		(at 172.72 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12327,7 +12429,7 @@
 		(fields_autoplaced yes)
 		(uuid "c391d77c-5ed8-41b8-98b7-8480e3cb8049")
 		(property "Reference" "#PWR01"
-			(at 172.72 30.48 0)
+			(at 172.72 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12336,7 +12438,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 172.72 21.59 0)
+			(at 172.72 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12344,7 +12446,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 26.67 0)
+			(at 172.72 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12353,7 +12455,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 26.67 0)
+			(at 172.72 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12362,7 +12464,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 172.72 26.67 0)
+			(at 172.72 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12377,6 +12479,72 @@
 			(project "home"
 				(path "/26a01c63-766c-497b-bc84-a6b4a3f0f5a3"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 162.56 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c86d1baa-9cd8-4c51-b010-5f8e19138e1a")
+		(property "Reference" "#PWR03"
+			(at 162.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63100db7-d764-4651-a985-8abc84c74b82")
+		)
+		(instances
+			(project "home"
+				(path "/26a01c63-766c-497b-bc84-a6b4a3f0f5a3"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -12408,7 +12576,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 355.6 193.04 0)
 			(effects
 				(font
@@ -12542,7 +12710,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 40.64 139.7 0)
 			(effects
 				(font
@@ -12585,78 +12753,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Hone_Sensor_symbol_lib:GG0402052R542P")
-		(at 66.04 101.6 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d8480297-63f0-4231-ab77-01aeb309ee6f")
-		(property "Reference" "CR2"
-			(at 69.85 93.9799 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "GG0402052R542P"
-			(at 69.85 96.5199 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Home_Sensor_foot_lib:TVS_GG0402_KAV"
-			(at 66.04 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "GG0402052R542P"
-			(at 66.04 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 66.04 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0b733959-81b5-4bfe-9f74-31567bc182ff")
-		)
-		(pin "1"
-			(uuid "19be25e9-12b1-456f-9c0a-463cce901263")
-		)
-		(instances
-			(project ""
-				(path "/26a01c63-766c-497b-bc84-a6b4a3f0f5a3"
-					(reference "CR2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 355.6 180.34 0)
 		(unit 1)
@@ -12682,7 +12778,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Home_Sensor_foot_lib:SW4_1825910-B_TEC"
 			(at 355.6 175.26 0)
 			(effects
 				(font
@@ -12752,7 +12848,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 86.36 41.91 0)
 			(effects
 				(font
@@ -12822,7 +12918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 280.162 91.44 90)
 			(effects
 				(font
@@ -13022,7 +13118,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 82.55 54.61 0)
 			(effects
 				(font
@@ -13059,77 +13155,6 @@
 			(project "home"
 				(path "/26a01c63-766c-497b-bc84-a6b4a3f0f5a3"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Hone_Sensor_symbol_lib:GG0402052R542P")
-		(at 58.42 91.44 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f7219856-8e2f-417f-8c25-4701e6884069")
-		(property "Reference" "CR1"
-			(at 62.23 83.8199 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "GG0402052R542P"
-			(at 62.23 86.3599 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Home_Sensor_foot_lib:TVS_GG0402_KAV"
-			(at 58.42 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "GG0402052R542P"
-			(at 58.42 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 58.42 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c679db59-3441-43d5-886b-1363bb9ea64b")
-		)
-		(pin "1"
-			(uuid "4354a77a-cdb7-48d1-a145-fc1f0f77f6ae")
-		)
-		(instances
-			(project ""
-				(path "/26a01c63-766c-497b-bc84-a6b4a3f0f5a3"
-					(reference "CR1")
 					(unit 1)
 				)
 			)
@@ -13229,7 +13254,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 269.24 83.82 0)
 			(effects
 				(font

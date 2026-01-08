@@ -394,7 +394,7 @@
 			)
 		)
 		(property "Footprint" "Home_Sensor_foot_lib:TVS_GG0402_KAV"
-			(at 0 0 0)
+			(at 6.096 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -597,7 +597,9 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
+		)
+		(symbol "GG0402052R542P_1_1"
+			(pin bidirectional line
 				(at 0 0 0)
 				(length 2.54)
 				(name ""
@@ -615,7 +617,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 12.7 0 180)
 				(length 2.54)
 				(name ""
