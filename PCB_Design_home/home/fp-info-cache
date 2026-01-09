@@ -1,4 +1,4 @@
-25602882624184794
+25606418285662303
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60361,12 +60361,26 @@ AMPHENOL_10155435-00011LF
 16
 16
 Home_Sensor_foot_lib
+DIP-16_STM
+
+ULN2003A 
+0
+16
+16
+Home_Sensor_foot_lib
 QFN50P500X500X80-29N
 
 
 0
 29
 29
+Home_Sensor_foot_lib
+SW4_1825910-B_TEC
+
+1825910-6 
+0
+4
+4
 Home_Sensor_foot_lib
 TVS_GG0402_KAV
 

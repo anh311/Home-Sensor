@@ -295,7 +295,9 @@
 					(type none)
 				)
 			)
-			(pin unspecified line
+		)
+		(symbol "1825910-6_1_1"
+			(pin passive line
 				(at 0 0 0)
 				(length 7.62)
 				(name "1"
@@ -313,7 +315,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 0 -7.62 0)
 				(length 7.62)
 				(name "2"
@@ -331,7 +333,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 40.64 0 180)
 				(length 7.62)
 				(name "3"
@@ -349,7 +351,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 40.64 -7.62 180)
 				(length 7.62)
 				(name "4"
