@@ -2177,7 +2177,7 @@
 	(footprint "Package_LGA:Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering"
 		(layer "F.Cu")
 		(uuid "2f1b8906-aad9-41b1-b37b-8cba79990623")
-		(at 104.6 48.8125)
+		(at 94.6 53.8125)
 		(descr "Bosch  LGA, 8 Pin (https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001-00.pdf#page=44), generated with kicad-footprint-generator ipc_noLead_generator.py")
 		(tags "Bosch LGA NoLead")
 		(property "Reference" "U4"
@@ -6055,7 +6055,7 @@
 	(footprint "Home_Sensor_foot_lib:SW4_1825910-B_TEC"
 		(layer "F.Cu")
 		(uuid "840ee0af-4ddd-453c-982a-b57cd79ce9ce")
-		(at 167.36 57.2406)
+		(at 160 55)
 		(tags "1825910-6 ")
 		(property "Reference" "SW3"
 			(at -3.25 -2.250001 0)
@@ -6508,7 +6508,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 		(layer "F.Cu")
 		(uuid "8558a743-8042-492c-a89d-c33121214c08")
-		(at 112.09 66.49)
+		(at 112.09 65)
 		(descr "module CMS SOT223 4 pins")
 		(tags "CMS SOT")
 		(property "Reference" "U5"
@@ -6773,7 +6773,7 @@
 	(footprint "Home_Sensor_foot_lib:QFN50P500X500X80-29N"
 		(layer "F.Cu")
 		(uuid "859eab51-e1b7-499b-81b7-4206f343a8a2")
-		(at 128.83 67.76)
+		(at 124 72.64)
 		(property "Reference" "U2"
 			(at 0.07 -3.94 0)
 			(layer "F.SilkS")
@@ -8364,7 +8364,7 @@
 	(footprint "Home_Sensor_foot_lib:DIP-16_STM"
 		(layer "F.Cu")
 		(uuid "9f544534-0915-44e0-9f23-7e2ff5210de1")
-		(at 160.92 76.3306)
+		(at 131.19 56.11)
 		(tags "ULN2003A ")
 		(property "Reference" "U3"
 			(at 3.81 8.89 0)
@@ -9669,7 +9669,7 @@
 	(footprint "Home_Sensor_foot_lib:SW4_1825910-B_TEC"
 		(layer "F.Cu")
 		(uuid "a3c0dae6-a787-4230-9e0c-32458fa3f998")
-		(at 167.36 67.5106)
+		(at 160 65.27)
 		(tags "1825910-6 ")
 		(property "Reference" "SW1"
 			(at -3.25 -2.250001 0)
@@ -12215,7 +12215,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "d81ee35f-ef16-4caf-8b91-2fbac8243990")
-		(at 185.78 74.9006)
+		(at 155 74.84)
 		(descr "Through hole straight socket strip, 1x05, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x05 2.54mm single row")
 		(property "Reference" "J2"
@@ -14980,6 +14980,38 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "Edge.Cuts")
+		(uuid "615d76b6-ab93-475b-9226-c624c4430607")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "/")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 105 15) (xy 150 15) (xy 150 45) (xy 170 45) (xy 170 115) (xy 85 115) (xy 85 45) (xy 105 45)
 			)
 		)
 	)
