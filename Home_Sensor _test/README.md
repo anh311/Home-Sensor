@@ -2,7 +2,7 @@
 
 troubleshooting steps and hardware corrections required to run an ESP32-C3-WROOM-02 module on custom PCB
 
-## Hardware Corrections (Lessons Learned)
+## Hardware Corrections 
 
 the following hardware issues were identified and corrected:
 
@@ -11,3 +11,12 @@ the following hardware issues were identified and corrected:
 - changed C14 for 1k Ohm 
 
 <img src="First_fix.jpeg" alt="First_fix" width="500"/>
+
+
+## Notes
+
+- ESP32 IO 19 and IO 18 need swapp in the Symbol (Symbol is wrong)
+
+- manual flashing works
+- RTS DTR logic works
+- LED 1-3 works

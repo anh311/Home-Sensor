@@ -5253,9 +5253,19 @@
 		)
 		(uuid "cdc9f39c-69bf-42b1-accf-f18b5349a31c")
 	)
+	(text "io 19 and 18 are swapped in footprint (symbol is wrong)"
+		(exclude_from_sim no)
+		(at 274.32 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e4c5e61f-42d1-4aff-b2de-3c7b4a7ec094")
+	)
 	(text_box "MCU\n"
 		(exclude_from_sim no)
-		(at 254 16.51 0)
+		(at 243.84 15.24 0)
 		(size 115.57 99.06)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
