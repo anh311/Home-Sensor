@@ -10,7 +10,11 @@ the following hardware issues were identified and corrected:
 - Missing GPIO 8 Pull-up: GPIO 8 is a strapping pin for the ESP32-C3 was floating6
 - changed C14 for 1k Ohm 
 
-<img src="First_fix.jpeg" alt="First_fix" width="500"/>
+Test 1
+<img src="Test1.jpeg" alt="Test1" width="500"/>
+
+Test 2
+<img src="Test2.jpeg" alt="Test2" width="500"/>
 
 
 ## Notes
@@ -20,3 +24,4 @@ the following hardware issues were identified and corrected:
 - manual flashing works
 - RTS DTR logic works
 - LED 1-3 works
+- Switch works
