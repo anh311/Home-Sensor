@@ -20,8 +20,12 @@ Test 2
 ## Notes
 
 - ESP32 IO 19 and IO 18 need swapp in the Symbol (Symbol is wrong)
+- ESP 32 C3 only one i2c controller -> put BME860 and Oled on one I2C BUS (one pair of pins  @ ESP32)
+
 
 - manual flashing works
 - RTS DTR logic works
 - LED 1-3 works
 - Switch works
+- Oled Works
+- BME680 works
